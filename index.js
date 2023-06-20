@@ -28,10 +28,15 @@ writeCards(names, "suprise")
 
 
 
-let anyInt = 11
+// let anyInt =
 
 function countDown(anyInt){
-  while (anyInt > -1 ){
-    console.log(anyInt --);
-  }
+  while (anyInt >= 0 ){
+    console.log(anyInt);
+    anyInt --
+  } 
+  
 }
+
+
+countDown(10)
